@@ -1,0 +1,35 @@
+#sectionPreview{
+	
+	background-color: white;
+
+}
+#sectionPreview:hover{
+
+	cursor: default;
+
+}
+
+textarea {
+   resize: none;
+}
+
+.focused-image {
+    position: relative;
+    display: inline-block;
+}
+.focused-image .close {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 100;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: .2;
+    text-align: center;
+    font-size: 30px;
+    line-height: 10px;
+    border-radius: 50%;
+}
+.focused-image:hover .close {
+    opacity: 1;
+}

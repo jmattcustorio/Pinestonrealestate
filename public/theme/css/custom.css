@@ -1,0 +1,14 @@
+#sectionPreview{
+	
+	background-color: white;
+
+}
+#sectionPreview:hover{
+
+	cursor: default;
+
+}
+
+textarea {
+   resize: none;
+}
